@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+
+
+:root{
+   --pink:#e84393;
+   --red:#c0392b;
+   --orange:#f39c12;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --border:.2rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+body{
+   background-image: url("https://furnishingtips.com/wp-content/uploads/2020/12/Living-Room-Furniture-.jpg") ;
+
+}
+.dashboard{
+    background-image: url("https://furnishingtips.com/wp-content/uploads/2020/12/Living-Room-Furniture-.jpg") ;
+}
+.dashboard .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(194, 219, 219);
+ }
+ 
+ .dashboard .box-container .box{
+    text-align: center;
+    border:var(--border);
+    background-color:rgb(193, 193, 208);
+    box-shadow: var(--box-shadow);
+    padding:2rem;
+    border-radius: .5rem;
+ }
+ 
+ .dashboard .box-container .box h3{
+    font-size: 4.5rem;
+    color:rgb(255, 0, 153);
+ }
+ 
+ .dashboard .box-container .box p{
+    padding:1.5rem;
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    color:var(--light-color);
+    border:var(--border);
+    margin-top: 2rem;
+    font-size: 2rem;
+ }
+ .add-products{
+   background-color: aliceblue;
+ }
